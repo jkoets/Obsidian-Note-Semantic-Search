@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "note-search"
+version = "0.1.0"
+description = "Local semantic + lexical search over Obsidian vaults."
+requires-python = ">=3.10"
+dependencies = [
+    "sentence-transformers>=2.7",
+    "torch>=2.0",
+    "einops>=0.7",          # required by nomic-embed-text-v1.5 custom code
+    "numpy>=1.24",
+    "rank-bm25>=0.2.2",
+    "click>=8.1",
+    "tqdm>=4.65",
+]
+
+[project.scripts]
+ns = "note_search.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["note_search*"]

@@ -1,0 +1,2 @@
+[console_scripts]
+ns = note_search.cli:main

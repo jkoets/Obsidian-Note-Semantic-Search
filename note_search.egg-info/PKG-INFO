@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: note-search
+Version: 0.1.0
+Summary: Local semantic + lexical search over Obsidian vaults.
+Requires-Python: >=3.10
+Requires-Dist: sentence-transformers>=2.7
+Requires-Dist: torch>=2.0
+Requires-Dist: einops>=0.7
+Requires-Dist: numpy>=1.24
+Requires-Dist: rank-bm25>=0.2.2
+Requires-Dist: click>=8.1
+Requires-Dist: tqdm>=4.65

@@ -1,0 +1,11 @@
+{
+  "notes_root": "C:\\Users\\username\\Notes",
+  "vaults": {
+    "Projects": "Projects",
+    "Work": "Work",
+    "AI_Notes": "AI_Notes"
+  },
+  "model": "nomic-ai/nomic-embed-text-v1.5",
+  "chunk_max_chars": 2000,
+  "chunk_min_chars": 40
+}

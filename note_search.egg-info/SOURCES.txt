@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+note_search/__init__.py
+note_search/__main__.py
+note_search/chunker.py
+note_search/cli.py
+note_search/embedder.py
+note_search/indexer.py
+note_search/search.py
+note_search/storage.py
+note_search.egg-info/PKG-INFO
+note_search.egg-info/SOURCES.txt
+note_search.egg-info/dependency_links.txt
+note_search.egg-info/entry_points.txt
+note_search.egg-info/requires.txt
+note_search.egg-info/top_level.txt
