@@ -63,7 +63,7 @@ Replace the path there with the path to where your vault(s) are, and replace the
 `notes_root` is the parent directory that contains your vault folders. The
 index lives at `<notes_root>/.note-search/` and syncs along with your notes.
 
-## Make it wasy to get to
+## Make it easy to get to
 I added it to my PowerShell profile, so from any PowerShell window I can call it.
 To find your profile, from PowerShell type $PROFILE to get the path. 
 Add this, and then restart PowerShell:
